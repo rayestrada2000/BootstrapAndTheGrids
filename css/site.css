@@ -8,3 +8,12 @@ main>.container {
   bottom: 0;
   width: 100%;
 }
+.homeBG {
+  /* Add this in from #3 Building the site at 18 min. */
+  width: 100%;
+  background: url(/img/GridBG.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}

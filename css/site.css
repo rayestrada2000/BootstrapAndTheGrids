@@ -24,3 +24,6 @@ main>.container {
   font-style: normal;
   color: rgb(195, 255, 0);
 }
+main {
+  min-height: 80dvh;
+}

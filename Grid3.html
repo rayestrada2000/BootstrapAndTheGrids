@@ -107,8 +107,18 @@
               The "d-flex flex-column" works to even out the row's two column heights. However, Bobby inserts "justify-content-evenly" which I disabled with "jjj..." because it had no visible effect on the text whatsoever. <br> <br><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit doloremque assumenda quas tempora odio! Iure velit corrupti obcaecati, laborum sapiente suscipit, recusandae doloribus aperiam quas necessitatibus fugit officiis autem itaque maxime sit laudantium quasi dolorem?</p>
             </div>
             <!-- RIGHT BOTTOM COLUMN  -->
-            <div class="bg-dark text-light h-50 mt-2 p-2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem veniam eaque natus fugit, eius non perspiciatis accusamus praesentium tenetur totam atque. Beatae ullam odio fugit at, architecto quos excepturi commodi quia sapiente veniam debitis recusandae, quibusdam veritatis ducimus, iure cum delectus amet quae maxime temporibus.
+            <div class="bg-dark text-light h-50 mt-2 p-2 overflow-auto">
+              <p>
+                Bobby says in the event that there is too much text in this block, the text will overflow past the designated height of the block. To resolve this issue,
+                we use the class "<strong> overflow-hidden</strong>." To continue reading, the user would be 
+                offerred a button to take them to the site where the rest of the article
+                could be read.
+              </p> 
+              <p>
+                Yet another method is to provide the user with a scroll bar so they can
+                scroll down to read the rest of the article. This is done with the class: 
+                "<strong> overflow-auto</strong>."
+              </p> Lorem ipsum dolor sit amet consectetur adipisicing elit.  cum delectus amet quae maxime temporibus.
             </div>
             <div class="bg-dark text-light border border-top p-2">
               <button class="btn btn-light" type="button">Read More</button>

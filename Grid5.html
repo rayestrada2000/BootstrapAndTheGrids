@@ -77,20 +77,33 @@
     <main class="flex-shrink-0">
       <div class="container minHeight h-100 border border-dark">
         <div class="row h-100 row-cols-1 row-cols-md-3 gy-3">
-          <div class="col col-md-3 order-last order-md-first">
-            <div class="bg-secondary text-light h-100">
-              Column One
-            </div>
+          <div class="col col-md-3 order-last order-md-first border border-3 border-danger">
+            <section class="bg-secondary text-light h-100 p-2">
+              <h1>Column One</h1>
+              <p class="fs-5">
+                I have to remember this order
+              </p>
+              <ul class="fs-5">
+                <li>container</li>
+                <li>row</li>
+                <li>column</li>
+                <li>section (optional)</li>
+              </ul>
+              <p class="fs-5">
+                The optional part is to make sure the don't break out of their boundaries.
+              </p>
+            </section>
+            
           </div>
-          <div class="col col-md-6">
-            <div class="bg-dark text-light h-100">
-              Column Two
-            </div>
+          <div class="col col-md-6 border border-3 border-danger">
+            <section class="bg-dark text-light h-100 p-2 text">
+              <h1>Column Two</h1>
+            </section>
           </div>
-          <div class="col col-md-3">
-            <div class="bg-secondary text-light h-100">
-              Column Three
-            </div>
+          <div class="col col-md-3 border border-3 border-danger">
+            <section class="bg-secondary text-light h-100 p-2">
+              <h1>Column Three</h1>
+            </section>
           </div>
         </div>
       </div>
